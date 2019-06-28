@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <script src="/next-js-core2/dist/next-js-core2.js"></script>
+    <script src="/next-sublet.js"></script>
+  </head>
+  <body>
+    <script>
+      //YOUR CODES
+      var user = { firstName: null, lastName: null }; // <~ "legacy" is explicit
+
+      var view = nx.sublet(user, (state) => {
+        if (state.firstName) {
+          console.log(`Hello, ${state.firstName} ${state.lastName}`);
+        } else {
+          console.log('Howdy stranger~!');
+        }
+      });
+    </script>
+  </body>
+</html>

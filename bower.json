@@ -1,0 +1,28 @@
+{
+  "name": "next-sublet",
+  "version": "0.0.1",
+  "description": "Reactive leases for data subscriptions",
+  "main": "dist/next-sublet.js",
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "next"
+  ],
+  "homepage": "https://github.com/afeiship/next-sublet",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "build",
+    "src",
+    "gulp",
+    "gulpfile.js"
+  ]
+}
